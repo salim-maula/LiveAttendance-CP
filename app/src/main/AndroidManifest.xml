@@ -11,10 +11,16 @@
         android:theme="@style/Theme.AplikasiAbsensi">
         <activity
             android:name=".views.changepass.ChangePasswordActivity"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".views.splash.SplashScreenActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".views.forgotpass.ForgotPasswordActivity"
             android:exported="false" />
@@ -23,13 +29,7 @@
             android:exported="false" />
         <activity
             android:name=".views.main.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

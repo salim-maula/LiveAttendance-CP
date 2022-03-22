@@ -5,9 +5,9 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.aplikasiabsensi.R
 import com.example.aplikasiabsensi.databinding.ActivityMainBinding
-import com.example.liveattendance.views.attendance.AttendanceFragment
-import com.example.liveattendance.views.history.HistoryFragment
-import com.example.liveattendance.views.profile.ProfileFragment
+import com.example.aplikasiabsensi.views.attendance.AttendanceFragment
+import com.example.aplikasiabsensi.views.history.HistoryFragment
+import com.example.aplikasiabsensi.views.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
 

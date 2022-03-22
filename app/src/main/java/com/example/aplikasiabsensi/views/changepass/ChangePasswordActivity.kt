@@ -2,7 +2,6 @@ package com.example.aplikasiabsensi.views.changepass
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.aplikasiabsensi.R
 import com.example.aplikasiabsensi.databinding.ActivityChangePasswordBinding
 
 class ChangePasswordActivity : AppCompatActivity() {
