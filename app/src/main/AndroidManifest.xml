@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiAbsensi">
         <activity
+            android:name=".views.changepass.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.splash.SplashScreenActivity"
             android:exported="false" />
         <activity
