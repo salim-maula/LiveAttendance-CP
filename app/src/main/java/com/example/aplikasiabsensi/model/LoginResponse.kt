@@ -2,6 +2,25 @@ package com.example.aplikasiabsensi.model
 
 import com.google.gson.annotations.SerializedName
 
+/*Response
+{
+    "message": "success",
+    "data": {
+        "id": 1,
+        "name": "Admin",
+        "email": "test@test.com",
+        "email_verified_at": null,
+        "is_admin": 1,
+        "photo": null,
+        "created_at": "2022-03-13T11:14:42.000000Z",
+        "updated_at": "2022-03-13T11:14:42.000000Z"
+    },
+    "meta": {
+        "token": "1|olCfBUptxY3wPTSWsdgwaJx0ha7lWY8J0nJ9f9if"
+    }
+}
+ */
+
 data class LoginResponse(
 
 	@field:SerializedName("data")
