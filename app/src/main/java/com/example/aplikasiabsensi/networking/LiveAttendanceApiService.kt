@@ -1,8 +1,6 @@
 package com.example.aplikasiabsensi.networking
 
-import com.example.aplikasiabsensi.model.AttendanceResponse
-import com.example.aplikasiabsensi.model.ForgotPasswordResponse
-import com.example.aplikasiabsensi.model.HistoryResponse
+import com.example.aplikasiabsensi.model.*
 import com.example.aplikasiabsensi.model.LoginResponse
 import com.example.aplikasiabsensi.views.forgotpass.ForgotPasswordRequest
 import okhttp3.MultipartBody
@@ -33,4 +31,8 @@ interface LiveAttendanceApiService {
                              @Query("from") fromDate: String,
                              @Query("to") toDate: String
     ): Call<HistoryResponse>
+
+    @Headers("Accept: application/json", "Content-Type: application/json")
+    @POST("auth/logout")
+    fun logoutRequest(@Header("Authorization") token: String): Call<LogoutResponse>
 }
