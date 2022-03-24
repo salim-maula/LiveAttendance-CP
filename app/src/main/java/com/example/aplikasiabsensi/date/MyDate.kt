@@ -7,6 +7,7 @@ import java.util.*
 
 object MyDate {
     @SuppressLint("ConstantLocale")
+    //ini merupakan format dari utc karna pada backend nya menggunakan format ini
     private val formatUTC = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.getDefault())
 
     fun String.fromTimeStampToDate(): Date?{
