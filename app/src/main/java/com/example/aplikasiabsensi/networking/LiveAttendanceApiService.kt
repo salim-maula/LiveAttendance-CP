@@ -35,4 +35,8 @@ interface LiveAttendanceApiService {
     @Headers("Accept: application/json", "Content-Type: application/json")
     @POST("auth/logout")
     fun logoutRequest(@Header("Authorization") token: String): Call<LogoutResponse>
+
+    @Headers("Accept: application/json", "Content-Type: application/json")
+    @POST("auth/password/reset")
+    fun changePassword(@Header("Authorization") token: String, @Body body: String): Call<ChangePasswordResponse>
 }
