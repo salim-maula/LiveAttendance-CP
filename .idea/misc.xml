@@ -6,6 +6,7 @@
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/drawable/bg_btn_logout.xml" value="0.117" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_change_password.xml" value="0.22" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
@@ -14,7 +15,7 @@
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/fragment_history.xml" value="0.1" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/fragment_profile.xml" value="0.15" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/layout_current_time_dialog.xml" value="0.1" />
-        <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/layout_progress.xml" value="0.11458333333333333" />
+        <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/layout/layout_progress.xml" value="0.1" />
         <entry key="..\:/AndroidProject/AplikasiAbsensi/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>
